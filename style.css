@@ -1,7 +1,12 @@
 body {
-    background-color: #2b7d63;
-    height: 100vh;
+    background-image: url(rose.jpg);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height: 200vh;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+
 }
 
 .todo-app {
@@ -10,6 +15,7 @@ body {
     padding: 20px 30px 50px;
     margin: 120px auto 15px;
     border-radius: 15px;
+    opacity: 1;
 }
 
 .todo-app h1 {
